@@ -14,3 +14,15 @@ c = a + b;
 
 console.log ("after 'c' has been updated to use the new 'a' value" + c)
 
+
+function sayHey( )  {
+    console. log ( "Hey!") ; 
+    }
+    
+    sayHey( ) ;
+
+function conversation( ) {
+    sayHey( ) ;
+    console. log("How are you?") ;
+    console. log("Goodbye") ;
+}
