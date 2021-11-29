@@ -28,3 +28,18 @@ function conversation( ) {
 }
 
 conversation( )
+
+function futureAge () {
+    
+    let currentage = 23;
+    
+    var x = 5;
+    
+    const answer = currentage + x;
+
+    let name = "Mary";
+    
+    return "Hi " + name + " !"  + " You will be "  + answer  +  " years old in 5 years. " 
+}
+
+console.log(futureAge())
