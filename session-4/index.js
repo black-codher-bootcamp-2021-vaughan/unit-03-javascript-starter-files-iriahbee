@@ -15,8 +15,8 @@ const PersonB = {
 
 const PersonC = {
     name: 'Orson',
-    age:'39',
-    location: 'Pery Barr',
+    age:'17',
+    location: 'Perr     y Barr',
     likes: 'Cricket'
     };
 const PersonD = {
@@ -88,6 +88,17 @@ console.log ("tally3: x * y / x " + tally3 )
 
 
 // ****************************************************TASK 3****************************************************
+
+const Drivingage = 18;
+const Myage = 30;
+
+var isAmIOldEnoughToDrive = Myage > Drivingage;
+
+console.log ('Am I Old Enough To Drive? '+ isAmIOldEnoughToDrive);
+
+var isAmIOldEnoughToDrive = PersonC.age > Drivingage;
+
+console.log ('Am I Old Enough To Drive? ' + isAmIOldEnoughToDrive);
 
 
 
