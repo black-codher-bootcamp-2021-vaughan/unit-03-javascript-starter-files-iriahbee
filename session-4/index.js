@@ -1,7 +1,7 @@
 // ****************************************************TASK 1 - OBJECTS****************************************************
 const PersonA = {
 name: 'Karen',
-age:'31',
+age:'21',
 location: 'Spain',
 likes: 'Pizza'
 };
@@ -34,8 +34,6 @@ return "Hi, my name is " + Person.name + " I am " + Person.age + " years old, I 
 };
 
 console.log (Biography (PersonB));
-
-
 
 
 
@@ -78,15 +76,6 @@ const tally3 = x * y / x;
 console.log ("tally3: x * y / x " + tally3 )
 
 
-
-
-
-
-
-
-
-
-
 // ****************************************************TASK 3****************************************************
 
 const Drivingage = 18;
@@ -100,7 +89,55 @@ var isAmIOldEnoughToDrive = PersonC.age > Drivingage;
 
 console.log ('Am I Old Enough To Drive? ' + isAmIOldEnoughToDrive);
 
+// ****************************************************HOMEWORK Calculator****************************************************
 
+ const calculator = (operator, ...numbers) => {
+    const Key = '+-*/';
+    const ind = Key.indexOf(operator);
+    return numbers.reduce((acc, val) => {
+       switch(operator){
+          case '+': return acc+val;
+          case '-': return acc-val;
+          case '*': return acc*val;
+          case '/': return acc/val;
+          case '%': return acc%val;
+       };
+    });
+ };
+ console.log(calculator('+', 12, 450));
+ console.log(calculator('-', 89, 210));
+ console.log(calculator('*', 12, 95));
+ console.log(calculator('/',120,7));
+ console.log(calculator('%',150,33));
+
+// ****************************************************HOMEWORK Counter****************************************************
+
+
+// difference in ages between two people
+const difference = (PersonB.age- PersonA.age)
+
+// the older of two people
+const older = (true, false)
+
+// Functions
+
+ function olderAge  (Person, Person) {
+    if (Person.age<Person.age){
+        return false;
+    }
+    
+    else{
+        return true;
+    }
+}
+console.log (olderAge (PersonA, PersonB))
+
+
+function WhoIsOlder (Person, Person) {
+ return PersonB.name + ' is ' + difference + ' years older than ' + PersonA.name
+};
+
+console.log (WhoIsOlder(PersonB, PersonA))
 
 
 
