@@ -15,6 +15,46 @@ function getGrade (total) {
 
 console.log (getGrade(29))
 
+//*Second Task */
+
+function getGrade (total) {
+
+    let grade; 
+
+    switch (true) {
+
+    case (total > 90):
+    grade='You got an A+, Congrats!';
+    break;
+    case (total > 80 && total <= 90):
+    grade='You got an A';
+    break;
+    case (total > 70 && total <= 80):
+    grade='You got a B';
+    break;
+    case (total > 60 && total <= 70):
+    grade='You got a C';
+    break;
+    case (total > 50 && total <= 60):
+    grade='You got a D';
+    break;
+    case (total > 40 && total <= 50):
+    grade='You got an E';
+    break;
+    case (total > 30 && total <= 40):
+    grade='You got an F';
+    break;
+    default:
+    grade= 'Sorry, You Failed'
+    }
+    
+    return grade;
+    }
+    console.log (getGrade(88))
+
+
+
+
     
 
 
