@@ -6,26 +6,30 @@
 // ****************************************************TASK 1****************************************************
 
 
-const randomNumber = Math.round(Math.random() * 10);
-let counter = 1;
+let counter = 0;
 
 while (counter <= 10) {
-
-
-counter ++ 
-
+    
+    const randomNumber = Math.round(Math.random() * 10);
+    counter ++ 
+    
+    console.log (randomNumber)
 }
-
-console.log (randomNumber)
 
 
 
 // ****************************************************TASK 2****************************************************
 
+for (counter =1; counter <=10; counter ++) {
+    
+    const randomNumber = Math.round(Math.random() * 10);
+    
+    console.log (randomNumber)
+}
 
 
 
-
+  
 
 
 
